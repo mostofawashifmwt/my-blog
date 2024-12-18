@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Buttons */
+.nav-button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.nav-button:active {
+    transform: scale(1);
+}
+
+/* Permanent Home Button */
+.home-button {
+    background-color: #28a745;
+}
+
+.home-button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
